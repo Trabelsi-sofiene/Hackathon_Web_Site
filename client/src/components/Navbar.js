@@ -8,7 +8,9 @@ function Navbar() {
 	const showNavbar = () => {
 		navRef.current.classList.toggle(
 			"responsive_nav"
+			
 		);
+	
 	};
 
 	return (
@@ -16,10 +18,10 @@ function Navbar() {
             <img className="logo" src={logo}></img>
           
 			<nav ref={navRef}>
-				<a href="/#" className="navbar-text">Home</a>
-				<a href="/#" className="navbar-text">My work</a>
-				<a href="/#" className="navbar-text">Blog</a>
-				<a href="/#" className="navbar-text">About me</a>
+				<a href="/Home" className="navbar-text">Home</a>
+				<a href="/Agenda" className="navbar-text">Agenda</a>
+				<a href="/Inscription" className="navbar-text">Inscription</a>
+				<a href="/Speakers" className="navbar-text">Speakers</a>
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>

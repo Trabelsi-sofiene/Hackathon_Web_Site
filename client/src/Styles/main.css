@@ -61,6 +61,7 @@ nav {
 		opacity: 1;
         color: #2ea3dd;
 	}
+	
 
 	header nav {
 		position: fixed;
@@ -79,8 +80,11 @@ nav {
 
 	header .responsive_nav {
 		transform: translateY(100vh);
+		
 	}
 
+
+}
 	nav .nav-close-btn {
 		position: absolute;
 		top: 2rem;
@@ -91,11 +95,11 @@ nav {
 	nav a {
 		font-size: 1.5rem;
 	}
-}
+
 .navbar-text:hover{
 color: #2ea3dd;
 }
 .logo{
     height: 40ch;
-    
+   
 }
